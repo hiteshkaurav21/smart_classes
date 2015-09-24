@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+<server host="0.0.0.0" port="3000" project="F:/WebSite PayDirt/phpworkspace/billing" type="org.radrails.rails.railsServer">
+<name>billing</name>
+</server>
+<server host="0.0.0.0" port="3000" project="F:/WebSite PayDirt/phpworkspace/blogger" type="org.radrails.rails.railsServer">
+<name>blogger</name>
+</server>
+<server host="0.0.0.0" port="3000" project="F:/WebSite PayDirt/phpworkspace/blog" type="org.radrails.rails.railsServer">
+<name>blog</name>
+</server>
+</servers>
