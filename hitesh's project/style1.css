@@ -1,0 +1,115 @@
+.sc {
+background-color: #272727;
+	height:1100px;
+	width: 1355px;
+	}
+.side{
+
+position:fixed;
+top:10px;
+right:5px;
+background-color: #353535;
+height: auto;
+width: 320px;
+float:left;
+}
+.container {
+	background-color: #232323;
+	margin: 10px;
+	height: auto;
+	width: 1000px;
+	float:left;
+}
+.header {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 48px;
+	font-style: italic;
+	font-weight: bolder;
+	color: #E7E7E7;
+	background-color: #353535;
+	margin: 10px;
+	padding: 10px;
+	height: 100px;
+	width: 960px;
+
+}
+.navigation {
+	background-color: #616162;
+	margin: 10px;
+	padding: 10px;
+	height: 70px;
+	width: 960px;
+}
+.body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #797979;
+	margin: 10px;
+	padding: 10px;
+	height: auto;
+	width: 960px;
+}
+.footer {
+	background-color: #A1A1A1;
+	margin: 10px;
+	padding: 10px;
+	height: autopx
+	width: 960px;
+}
+.footer {
+	background-color: #8C8C8C;
+	margin: 10px;
+	padding: 10px;
+	height: autopx;
+	width: 960px;
+}
+.ngo {
+	font-family: "MS Serif", "New York", serif;
+	margin: 10px;
+	padding: 10px;
+	height: auto;
+	width: 960px;
+}
+.ngo {
+	font-family: "Times New Roman", Times, serif;
+	height: auto;
+	width: 960px;
+}
+.image {
+
+	margin: 10px;
+	padding: 10px;
+	height: auto;
+	width: 960px;
+}
+.photo {
+
+	margin: 10px;
+	padding: 10px;
+	height: auto;
+	width: 450px;
+}
+a:active
+{
+background-color:gray;
+}
+a
+{
+display:block;
+
+background-color:#232323;
+}
+a:focus
+{
+background-color:gray;
+}
+
+a:hover
+{ 
+background-color:gray;
+
+}
+a:-webkit-any-link {
+color: white;
+text-decoration: none;
+cursor: auto;
+}

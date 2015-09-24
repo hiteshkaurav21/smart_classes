@@ -1,0 +1,165 @@
+.sc {
+background-color: rgb(11,11,11);
+	height: 929px;
+	width: 1355px;
+	}
+.side{
+
+position:fixed;
+top:10px;
+right:5px;
+background-color: rgb(11,11,11);
+height: auto;
+width: 320px;
+float:left;
+}
+.name{
+text-shadow: 2px 2px rgb(255,255,255);
+animation:myfirst 7s linear 2s 2 alternate;
+/* Firefox: */
+-moz-animation:myfirst 7s linear 2s 2 alternate;
+/* Safari and Chrome: */
+-webkit-animation:myfirst 7s linear 2s 2 alternate;
+/* Opera: */
+-o-animation:myfirst 7s linear 2s 2 alternate;
+
+}
+
+@keyframes myfirst
+{
+0%  {transform:rotate(180deg);color:red; left:0px; top:0px;}
+25%  {transform:rotate(360deg); color:yellow; left:200px; top:0px;}
+50%  {transform:rotate(180deg);color:blue; left:200px; top:200px;}
+75%  {transform:rotate(360deg);color:green; left:0px; top:200px;}
+100% {transform:rotate(180deg);color:red; left:0px; top:0px;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {transform:rotate(180deg);color:red; left:0px; top:0px;}
+25%  {transform:rotate(180deg); color:yellow; left:200px; top:0px;}
+50%  {transform:rotate(180deg);color:blue; left:200px; top:200px;}
+75%  {transform:rotate(180deg);color:green; left:0px; top:200px;}
+100% {transform:rotate(180deg);color:red; left:0px; top:0px;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {transform:rotate(180deg);color:red;}
+25%  {transform:rotate(360deg); color:yellow;}
+50%  {transform:rotate(180deg);color:blue;}
+75%  {transform:rotate(360deg);color:green;}
+100% {transform:rotate(180deg);color:red;}
+}
+
+
+@-o-keyframes myfirst /* Opera */
+{
+0%   {transform:rotate(180deg);color:red; left:0px; top:0px;}
+25%  { transform:rotate(360deg); color:yellow; left:200px; top:0px;}
+50%  {transform:rotate(180deg);color:blue; left:200px; top:200px;}
+75%  {transform:rotate(360deg);color:green; left:0px; top:200px;}
+100% {transform:rotate(180deg);color:red; left:0px; top:0px;}
+}
+
+}
+.container {
+	background-color: #232323;
+	margin: 10px;
+	height: auto;
+	width: 1000px;
+	float:left;
+}
+.header {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 48px;
+	font-style: italic;
+	font-weight: bolder;
+	color: rgb(255,255,255);
+	background-color: #353535;
+	margin: 10px;
+	padding: 10px;
+	height: 100px;
+	width: 960px;
+
+}
+.navigation {
+	background-color: #616162;
+	margin: 10px;
+	padding: 10px;
+	height: 70px;
+	width: 960px;
+}
+.body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #797979;
+	margin: 10px;
+	padding: 10px;
+	height: auto;
+	width: 960px;
+}
+.footer {
+	background-color: #A1A1A1;
+	margin: 10px;
+	padding: 10px;
+	height: autopx
+	width: 960px;
+}
+.footer {
+	background-color: #8C8C8C;
+	margin: 10px;
+	padding: 10px;
+	height: autopx;
+	width: 960px;
+}
+.ngo {
+	font-family: "MS Serif", "New York", serif;
+	margin: 10px;
+	padding: 10px;
+	height: auto;
+	width: 960px;
+}
+.ngo {
+	font-family: "Times New Roman", Times, serif;
+	height: auto;
+	width: 960px;
+}
+.image {
+
+	margin: 10px;
+	padding: 10px;
+	height: auto;
+	width: 960px;
+}
+.photo {
+
+	margin: 10px;
+	padding: 10px;
+	height: auto;
+	width: 450px;
+}
+a:active
+{
+background-color:gray;
+}
+a
+{
+display:block;
+
+background-color:#232323;
+}
+a:focus
+{
+background-color:gray;
+}
+
+a:hover
+{ 
+background-color:gray;
+
+}
+a:-webkit-any-link {
+color: white;
+text-decoration: none;
+cursor: auto;
+}
